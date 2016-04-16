@@ -21,15 +21,17 @@ var templates = [
 
 var niceQuotes = [
   "What a beautiful person!",
-  "Screw my campaign, vote that guy for president!",
-  "I know the best people. That's one of them",
+  "That one should be our president!",
+  "I know the best people. And that's one of them.",
   "Fantastic, yuge potential!"
 ];
 
 var generateInsult = function(name) {
-  // if (('pedro' in name) || ('silva' in name)) {
-  //   return niceQuotes[getRandomInt(niceQuotes.length)];
-  // }
+  if ((name.toLowerCase().indexOf('donald') > -1) ||
+      (name.toLowerCase().indexOf('trump') > -1) ||
+      (name.toLowerCase().indexOf('ivanka')) ) {
+    return niceQuotes[getRandomInt(niceQuotes.length)];
+  }
 
   var template = templates[getRandomInt(templates.length)];
 
