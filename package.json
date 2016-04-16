@@ -1,0 +1,22 @@
+{
+  "name": "groupme-trump-insult-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+    "director":""
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/phrmsilva/groupme-trump-insult-generator.git"
+  },
+  "author": "Pedro Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phrmsilva/groupme-trump-insult-generator/issues"
+  },
+  "homepage": "https://github.com/phrmsilva/groupme-trump-insult-generator#readme"
+}
